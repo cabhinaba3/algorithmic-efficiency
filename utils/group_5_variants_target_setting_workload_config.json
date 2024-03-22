@@ -1,8 +1,8 @@
 {
-    "imagenet_vit_map": {
-        "max_steps": 186666,
-        "dataset": "imagenet",
+    "wmt_glu_tanh": {
+        "max_steps": 15000,
+        "dataset": "wmt",
         "submission_path": "reference_algorithms/target_setting_algorithms/jax_nadamw.py",
-        "tuning_search_space": "reference_algorithms/target_setting_algorithms/imagenet_vit_map/tuning_search_space.json"
-    }
+        "tuning_search_space": "reference_algorithms/target_setting_algorithms/wmt_glu_tanh/tuning_search_space.json"
+    },
 }
