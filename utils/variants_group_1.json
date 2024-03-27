@@ -1,5 +1,5 @@
 {
-    "librispeech_deepspeech_no_resnet": {
+    "librispeech_deepspeech_norm_and_spec_aug": {
         "max_steps": 48000,
         "dataset": "librispeech",
         "submission_path": "reference_algorithms/target_setting_algorithms/jax_nadamw.py",
