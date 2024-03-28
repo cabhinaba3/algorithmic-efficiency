@@ -311,7 +311,7 @@ class WmtWorkloadPostLN(WmtWorkload):
 
 
 class WmtWorkloadAttentionTemp(WmtWorkload):
-  """WMT Jax workload with attention temperature = 4.0."""
+  """WMT Jax workload with attention temperature = 1.6."""
 
   @property
   def validation_target_value(self) -> float:
@@ -323,7 +323,7 @@ class WmtWorkloadAttentionTemp(WmtWorkload):
 
   @property
   def attention_temp(self) -> float:
-    return 4.0
+    return 1.6
 
 
 class WmtWorkloadGLUTanH(WmtWorkload):
