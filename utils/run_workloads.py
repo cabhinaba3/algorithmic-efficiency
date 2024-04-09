@@ -27,9 +27,9 @@ flags.DEFINE_string(
     'URL to docker image')
 flags.DEFINE_integer('run_percentage',
                      100,
-                     'Percentage of max num steps to run for.')
+                     'Percentage of max_steps to run for.')
 flags.DEFINE_string('experiment_name',
-                    'my_experiment',
+                     None,
                     'Name of top sub directory in experiment dir.')
 flags.DEFINE_boolean('rsync_data',
                      True,
@@ -97,7 +97,11 @@ def main(_):
 
   #
   run_fraction = FLAGS.run_percentage / 100.
-  experiment_name = FLAGS.experiment_name
+
+  if FLAGS.experiment_name:
+    experiment_name = FLAGS.experiment_name
+  else:
+    experiment_name = FLAGS.workload_config_path.split('.json')[0]
 
   # Get study and trial interval arguments
   num_studies = FLAGS.num_studies
