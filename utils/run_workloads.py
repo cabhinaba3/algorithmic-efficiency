@@ -8,6 +8,13 @@ python run_workloads.py \
 --run_percentage 10 \
 --workload_config_path workload_config.json \
 --dry_run 
+
+python run_workloads.py \
+  --framework jax \
+    --docker_image_url us-central1-docker.pkg.dev/training-algorithms-external/mlcommons-docker-repo/algoperf_jax_dev \
+      --run_percentage 10 \
+        --workload_config_path submission_configs_small/AlgoPerf_Team_1_self_tuning_AdamG.json \
+          --dry_run 
 """
 
 import json
@@ -149,7 +156,12 @@ def main(_):
       dataset = workload_config[workload]['dataset']
       max_steps = int(workload_config[workload]['max_steps'] * run_fraction)
       submission_path = workload_config[workload]['submission_path']
-      tuning_search_space = workload_config[workload]['tuning_search_space']
+
+      # Optionally, define tuning search space flag
+      tuning_search_space_flag = ''
+      if 'tuning_search_space' in workload_config[workload].keys():
+        tuning_search_space = workload_config[workload]['tuning_search_space']
+        tuning_search_space_flag = f'-t {tuning_search_space}'
 
       # Optionally, define flag to mount local algorithmic-efficiency repo
       mount_repo_flag = ''
@@ -166,7 +178,7 @@ def main(_):
                  f'-f {framework} '
                  f'-s {submission_path} '
                  f'-w {workload} '
-                 f'-t {tuning_search_space} '
+                 f'{tuning_search_space_flag} '
                  f'-e {study_dir} '
                  f'-m {max_steps} '
                  f'--num_tuning_trials {num_tuning_trials} '
@@ -198,6 +210,9 @@ def main(_):
           "sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches'")  # clear caches
 
       print('=' * 100)
+      
+    # Wait until container is not running before exiting script  
+    wait_until_container_not_running(sleep_interval=5 * 60)
 
 
 if __name__ == '__main__':
