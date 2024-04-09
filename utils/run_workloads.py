@@ -41,7 +41,7 @@ flags.DEFINE_string('experiment_name',
 flags.DEFINE_boolean('rsync_data',
                      True,
                      'Whether or not to transfer the data from GCP w rsync.')
-flags.DEFINE_boolean('local', False, 'Mount local algorithmic-efficiency repo.')
+flags.DEFINE_boolean('local', True, 'Mount local algorithmic-efficiency repo.')
 flags.DEFINE_string('framework', 'jax', 'Can be either PyTorch or JAX.')
 flags.DEFINE_boolean(
     'dry_run',
