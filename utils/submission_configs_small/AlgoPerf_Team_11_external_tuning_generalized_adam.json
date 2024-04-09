@@ -3,84 +3,98 @@
         "max_steps": 10,
         "dataset": "imagenet",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "imagenet_vit": {
         "max_steps": 10,
         "dataset": "imagenet",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "fastmri": {
         "max_steps": 10,
         "dataset": "fastmri",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "ogbg": {
         "max_steps": 10,
         "dataset": "ogbg",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "wmt": {
         "max_steps": 10,
         "dataset": "wmt",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "librispeech_deepspeech": {
         "max_steps": 10,
         "dataset": "librispeech",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "criteo1tb": {
         "max_steps": 10,
         "dataset": "criteo1tb",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "librispeech_conformer": {
         "max_steps": 10,
         "dataset": "librispeech",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "librispeech_conformer_layernorm": {
         "max_steps": 10,
         "dataset": "librispeech",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "imagenet_resnet_large_bn_init": {
         "max_steps": 10,
         "dataset": "imagenet",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "criteo1tb_embed_init": {
         "max_steps": 10,
         "dataset": "criteo1tb",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "wmt_glu_tanh": {
         "max_steps": 10,
         "dataset": "wmt",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "fastmri_tanh": {
         "max_steps": 10,
         "dataset": "fastmri",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     },
     "ogbg_model_size": {
         "max_steps": 10,
         "dataset": "ogbg",
         "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/submission.py",
-        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json"
+        "tuning_search_space": "submissions_algorithms_v0_5/AlgoPerf_Team_11/external_tuning/generalized_adam/tuning_search_space.json",
+        "tuning_ruleset": "external"
     }
 }
