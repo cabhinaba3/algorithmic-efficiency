@@ -166,7 +166,7 @@ def main(_):
       # Optionally, define tuning ruleset 
       tuning_ruleset_flag = ''
       if 'tuning_ruleset' in workload_config[workload].keys():
-        tuning_ruleset = workload_config[workload].tuning_ruleset
+        tuning_ruleset = workload_config[workload]['tuning_ruleset']
         tuning_ruleset_flag = f'--tuning_ruleset {tuning_ruleset}'
 
       # Optionally, define flag to mount local algorithmic-efficiency repo
