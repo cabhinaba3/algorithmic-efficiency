@@ -2,71 +2,71 @@
     "imagenet_resnet": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "imagenet_vit": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "fastmri": {
         "max_steps": 10,
         "dataset": "fastmri",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "ogbg": {
         "max_steps": 10,
         "dataset": "ogbg",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "wmt": {
         "max_steps": 10,
         "dataset": "wmt",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "librispeech_deepspeech": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "criteo1tb": {
         "max_steps": 10,
         "dataset": "criteo1tb",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "librispeech_conformer": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "librispeech_conformer_layernorm": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "imagenet_resnet_large_bn_init": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "criteo1tb_embed_init": {
         "max_steps": 10,
         "dataset": "criteo1tb",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "wmt_glu_tanh": {
         "max_steps": 10,
         "dataset": "wmt",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "fastmri_tanh": {
         "max_steps": 10,
         "dataset": "fastmri",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     },
     "ogbg_model_size": {
         "max_steps": 10,
         "dataset": "ogbg",
-        "submission_path": "submissions_algorithms_v0.5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
+        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_10/self_tuning/schedule_free_adamw/submission.py"
     }
 }

@@ -19,13 +19,13 @@ for root, dirs, files in os.walk(SUBMISSON_DIR):
         print(submission_name)
 
         submission_dict = {}
-        submission_dict['submission_path'] = os.path.relpath(submission_path, REL_PATH_START)
+        submission_dict['submission_path'] = os.path.relpath(submission_path, REL_PATH_START).replace('0.5', '0_5')
 
         rel_root = os.path.relpath(root, REL_PATH_START)
         if 'external_tuning' in submission_path:
-            submission_dict['tuning_search_space'] = os.path.join(rel_root, 'tuning_search_space.json')
+            submission_dict['tuning_search_space'] = os.path.join(rel_root, 'tuning_search_space.json').replace('0.5', '0_5')
         if 'requirements.txt' in os.listdir(root):
-            submission_dict['requirements'] = os.path.join(rel_root, 'requirements.txt')
+            submission_dict['requirements'] = os.path.join(rel_root, 'requirements.txt').replace('0.5', '0_5')
         submissions[submission_name] = submission_dict
 
 
