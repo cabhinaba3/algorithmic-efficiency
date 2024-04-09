@@ -39,7 +39,7 @@ flags.DEFINE_string('experiment_name',
                      None,
                     'Name of top sub directory in experiment dir.')
 flags.DEFINE_boolean('rsync_data',
-                     True,
+                     False,
                      'Whether or not to transfer the data from GCP w rsync.')
 flags.DEFINE_boolean('local', True, 'Mount local algorithmic-efficiency repo.')
 flags.DEFINE_string('framework', 'jax', 'Can be either PyTorch or JAX.')
