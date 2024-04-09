@@ -1,0 +1,73 @@
+{
+    "imagenet_resnet": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": ""
+    },
+
+    "imagenet_vit": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": ""
+    },
+    "fastmri": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": ""
+    },
+    "ogbg": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": ""
+    },
+    "wmt": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": ""
+    },
+    "librispeech_deepspeech": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": ""
+    },
+    "criteo1tb": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path":""
+    },
+    "librispeech_conformer": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": ""
+    },
+    "librispeech_conformer_layernorm": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": ""
+    },
+    "imagenet_resnet_large_bn_init": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": ""
+    },
+    "criteo1tb_embed_init": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path": ""
+    },
+    "wmt_glu_tanh": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": ""
+    },
+    "fastmri_tanh": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": ""
+    },
+    "ogbg_model_size": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": ""
+    }
+}

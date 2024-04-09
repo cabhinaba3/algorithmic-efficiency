@@ -4,6 +4,7 @@ import copy
 import json
 
 SUBMISSON_DIR = "/home/kasimbeg/submissions_algorithms_v0.5"
+REL_PATH_START = "/home/kasimbeg"
 WORKLOADS_BASE_CONFIG_PATH = "/home/kasimbeg/algorithmic-efficiency/utils/workload_config_v05_base_small.json"
 
 with open(WORKLOADS_BASE_CONFIG_PATH) as f:
@@ -18,11 +19,13 @@ for root, dirs, files in os.walk(SUBMISSON_DIR):
         print(submission_name)
 
         submission_dict = {}
-        submission_dict['submission_path'] = submission_path
+        submission_dict['submission_path'] = os.path.relpath(submission_path, REL_PATH_START)
+
+        rel_root = os.path.relpath(root, REL_PATH_START)
         if 'external_tuning' in submission_path:
-            submission_dict['tuning_search_space'] = os.path.join(root, 'tuning_search_space.json')
+            submission_dict['tuning_search_space'] = os.path.join(rel_root, 'tuning_search_space.json')
         if 'requirements.txt' in os.listdir(root):
-            submission_dict['requirements'] = os.path.join(root, 'requirements.txt')
+            submission_dict['requirements'] = os.path.join(rel_root, 'requirements.txt')
         submissions[submission_name] = submission_dict
 
 
