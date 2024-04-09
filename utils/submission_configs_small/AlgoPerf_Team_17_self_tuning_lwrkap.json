@@ -1,0 +1,72 @@
+{
+    "imagenet_resnet": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "imagenet_vit": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "fastmri": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "ogbg": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "wmt": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "librispeech_deepspeech": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "criteo1tb": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "librispeech_conformer": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "librispeech_conformer_layernorm": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "imagenet_resnet_large_bn_init": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "criteo1tb_embed_init": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "wmt_glu_tanh": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "fastmri_tanh": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    },
+    "ogbg_model_size": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_17/self_tuning/lwrkap/submission.py"
+    }
+}

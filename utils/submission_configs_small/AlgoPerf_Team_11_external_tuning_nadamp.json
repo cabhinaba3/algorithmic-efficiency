@@ -1,0 +1,86 @@
+{
+    "imagenet_resnet": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "imagenet_vit": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "fastmri": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "ogbg": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "wmt": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "librispeech_deepspeech": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "criteo1tb": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "librispeech_conformer": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "librispeech_conformer_layernorm": {
+        "max_steps": 10,
+        "dataset": "librispeech",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "imagenet_resnet_large_bn_init": {
+        "max_steps": 10,
+        "dataset": "imagenet",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "criteo1tb_embed_init": {
+        "max_steps": 10,
+        "dataset": "criteo1tb",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "wmt_glu_tanh": {
+        "max_steps": 10,
+        "dataset": "wmt",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "fastmri_tanh": {
+        "max_steps": 10,
+        "dataset": "fastmri",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    },
+    "ogbg_model_size": {
+        "max_steps": 10,
+        "dataset": "ogbg",
+        "submission_path": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/submission.py",
+        "tuning_search_space": "/home/kasimbeg/submissions_algorithms_v0.5/AlgoPerf_Team_11/external_tuning/nadamp/tuning_search_space.json"
+    }
+}
