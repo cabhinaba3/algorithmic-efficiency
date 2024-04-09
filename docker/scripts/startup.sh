@@ -134,6 +134,7 @@ while [ "$1" != "" ]; do
 	        ;;
         *) 
             usage 
+            echo "Unrecognized flag :$1"
             exit 1
             ;;
     esac
