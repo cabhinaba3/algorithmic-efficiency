@@ -163,6 +163,12 @@ def main(_):
         tuning_search_space = workload_config[workload]['tuning_search_space']
         tuning_search_space_flag = f'-t {tuning_search_space}'
 
+      # Optionally, define tuning ruleset 
+      tuning_ruleset_flag = ''
+      if 'tuning_ruleset' in workload_config[workload].keys():
+        tuning_ruleset = workload_config[workload].tuning_ruleset
+        tuning_ruleset_flag = f'--tuning_ruleset {tuning_ruleset}'
+
       # Optionally, define flag to mount local algorithmic-efficiency repo
       mount_repo_flag = ''
       if FLAGS.local:
@@ -178,6 +184,7 @@ def main(_):
                  f'-f {framework} '
                  f'-s {submission_path} '
                  f'-w {workload} '
+                 f'{tuning_ruleset_flag}'
                  f'{tuning_search_space_flag} '
                  f'-e {study_dir} '
                  f'-m {max_steps} '
