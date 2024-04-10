@@ -190,7 +190,7 @@ def main(_):
                  f'-f {framework} '
                  f'-s {submission_path} '
                  f'-w {workload} '
-                 f'{tuning_ruleset_flag}'
+                 f'{tuning_ruleset_flag} '
                  f'{tuning_search_space_flag} '
                  f'-e {study_dir} '
                  f'-m {max_steps} '
