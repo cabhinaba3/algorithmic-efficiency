@@ -132,6 +132,10 @@ while [ "$1" != "" ]; do
 	        shift
             TEST=$1
 	        ;;
+        --additional_requirements_path)
+            shift
+            ADDITIONAL_REQUIREMENTS_PATH=$1
+            ;;
         *) 
             usage 
             echo "Unrecognized flag :$1"
@@ -141,6 +145,11 @@ while [ "$1" != "" ]; do
     shift 
 done
 
+# Optionnally install addtional dependencies
+if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH} ]]; then
+    pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}
+
+# Run traindiff tests
 if [[ ${TEST} == "true" ]]; then
   cd algorithmic-efficiency
   COMMAND="python3 tests/test_traindiffs.py"

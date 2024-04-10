@@ -168,6 +168,12 @@ def main(_):
       if 'tuning_ruleset' in workload_config[workload].keys():
         tuning_ruleset = workload_config[workload]['tuning_ruleset']
         tuning_ruleset_flag = f'--tuning_ruleset {tuning_ruleset}'
+      
+      # Optionally, pass in path to requirements.txt
+      additional_requirements_path_flag = ''
+      if 'requirements_path' in workload_config[workload].keys():
+        requirements_path = workload_config[workload]['requirements_path']
+        additional_requirements_path_flag = f'--additional_requirements_path {requirements_path}'
 
       # Optionally, define flag to mount local algorithmic-efficiency repo
       mount_repo_flag = ''
@@ -191,6 +197,7 @@ def main(_):
                  f'--num_tuning_trials {num_tuning_trials} '
                  f'{hparam_start_index_flag} '
                  f'{hparam_end_index_flag} '
+                 f'{additional_requirements_path_flag} '
                  f'--rng_seed {rng_seed} '
                  '-c false '
                  '-o true '
