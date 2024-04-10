@@ -137,6 +137,8 @@ while [ "$1" != "" ]; do
             ADDITIONAL_REQUIREMENTS_PATH=$1
             ;;
         *) 
+            shift
+            echo "Unrecognized flag $1"
             usage 
             exit 1
             ;;
@@ -147,6 +149,7 @@ done
 # Optionnally install addtional dependencies
 if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH} ]]; then
     pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}
+fi
 
 # Run traindiff tests
 if [[ ${TEST} == "true" ]]; then
