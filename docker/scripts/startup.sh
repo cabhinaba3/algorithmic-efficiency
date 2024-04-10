@@ -137,7 +137,6 @@ while [ "$1" != "" ]; do
             ADDITIONAL_REQUIREMENTS_PATH=$1
             ;;
         *) 
-            echo "Unrecognized flag :$1"
             usage 
             exit 1
             ;;
