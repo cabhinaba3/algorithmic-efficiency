@@ -2,99 +2,99 @@
     "imagenet_resnet": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "imagenet_vit": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "fastmri": {
         "max_steps": 10,
         "dataset": "fastmri",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "ogbg": {
         "max_steps": 10,
         "dataset": "ogbg",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "wmt": {
         "max_steps": 10,
         "dataset": "wmt",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "librispeech_deepspeech": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "criteo1tb": {
         "max_steps": 10,
         "dataset": "criteo1tb",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "librispeech_conformer": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "librispeech_conformer_layernorm": {
         "max_steps": 10,
         "dataset": "librispeech",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "imagenet_resnet_large_bn_init": {
         "max_steps": 10,
         "dataset": "imagenet",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "criteo1tb_embed_init": {
         "max_steps": 10,
         "dataset": "criteo1tb",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "wmt_glu_tanh": {
         "max_steps": 10,
         "dataset": "wmt",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "fastmri_tanh": {
         "max_steps": 10,
         "dataset": "fastmri",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     },
     "ogbg_model_size": {
         "max_steps": 10,
         "dataset": "ogbg",
-        "submission_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
-        "requirements_path": "submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
+        "submission_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/submission.py",
+        "requirements_path": "submissions/submissions_algorithms_v0_5/AlgoPerf_Team_24/self_tuning/sinv6_75/requirements.txt",
         "tuning_ruleset": "self"
     }
 }

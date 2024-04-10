@@ -44,7 +44,7 @@ flags.DEFINE_string(
     'tuning_search_space',
     'prize_qualification_baselines/external_tuning/tuning_search_space.json',
     'Path to tuning search space.')
-flags.DEFINE_string('framework', 'jax', 'Can be either PyTorch or JAX.')
+flags.DEFINE_string('framework', 'jax', 'Can be either pytorch or jax.')
 flags.DEFINE_boolean(
     'dry_run',
     False,
