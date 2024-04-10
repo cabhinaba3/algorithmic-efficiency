@@ -2,7 +2,6 @@ python run_workloads.py \
 --framework pytorch \
 --docker_image_url us-central1-docker.pkg.dev/training-algorithms-external/mlcommons-docker-repo/algoperf_pytorch_dev \
 --workload_config_path submission_configs_small/AlgoPerf_Team_10_external_tuning_schedule_free_adamw.json \
---dry_run
 
 python run_workloads.py \
 --framework pytorch \
