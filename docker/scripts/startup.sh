@@ -147,8 +147,12 @@ while [ "$1" != "" ]; do
 done
 
 # Optionnally install addtional dependencies
-if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH} ]]; then
-    pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}
+if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH+x} ]]; then
+    echo "Installing addtional requirements..."
+    COMMAND="pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}"
+    echo $COMMAND
+    eval $COMMAND
+    
 fi
 
 # Run traindiff tests
