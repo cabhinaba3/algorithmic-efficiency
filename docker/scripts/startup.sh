@@ -152,7 +152,6 @@ if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH+x} ]]; then
     COMMAND="pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}"
     echo $COMMAND
     eval $COMMAND
-    
 fi
 
 # Run traindiff tests
