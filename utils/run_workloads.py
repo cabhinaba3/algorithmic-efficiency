@@ -146,7 +146,7 @@ def main(_):
 
     for workload in workloads:
       # For each runnable workload check if there are any containers running
-      wait_until_container_not_running()
+      wait_until_container_not_running(60)
 
       # Clear caches
       os.system("sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches'")
@@ -219,14 +219,14 @@ def main(_):
             f'Failed: container for {framework} {workload} failed with exit code {return_code}.'
         )
         print(f'Command: {command}')
-      wait_until_container_not_running()
+      wait_until_container_not_running(60)
       os.system(
           "sudo sh -c 'echo 3 > /proc/sys/vm/drop_caches'")  # clear caches
 
       print('=' * 100)
       
     # Wait until container is not running before exiting script  
-    wait_until_container_not_running(sleep_interval=5 * 60)
+    wait_until_container_not_running(60)
 
 
 if __name__ == '__main__':
