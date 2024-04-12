@@ -9,10 +9,11 @@
 # --docker_image_url us-central1-docker.pkg.dev/training-algorithms-external/mlcommons-docker-repo/algoperf_pytorch_dev \
 # --workload_config_path submission_configs_small/AlgoPerf_Team_25_external_tuning_cyclic_lr.json
 
-python run_workloads.py \
---framework pytorch \
---docker_image_url us-central1-docker.pkg.dev/training-algorithms-external/mlcommons-docker-repo/algoperf_pytorch_dev \
---workload_config_path submission_configs_small/AlgoPerf_Team_25_external_tuning_lawa_ema_cyclic_lr.json
+# todo: recheck
+# python run_workloads.py \
+# --framework pytorch \
+# --docker_image_url us-central1-docker.pkg.dev/training-algorithms-external/mlcommons-docker-repo/algoperf_pytorch_dev \
+# --workload_config_path submission_configs_small/AlgoPerf_Team_25_external_tuning_lawa_ema_cyclic_lr.json
 
 python run_workloads.py \
 --framework pytorch \
