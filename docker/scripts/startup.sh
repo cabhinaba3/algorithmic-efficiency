@@ -149,6 +149,7 @@ done
 # Optionnally install addtional dependencies
 if [[ -n ${ADDITIONAL_REQUIREMENTS_PATH+x} ]]; then
     echo "Installing addtional requirements..."
+    cd algorithmic-efficiency
     COMMAND="pip install -r ${ADDITIONAL_REQUIREMENTS_PATH}"
     echo $COMMAND
     eval $COMMAND
