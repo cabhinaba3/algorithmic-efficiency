@@ -346,6 +346,8 @@ def data_selection(workload: spec.Workload,
   del global_step
   del rng
   batch = next(input_queue)
+  breakpoint()
   print('BATCH STATS')
-  print(sum(batch['weights']))
+
+  print((batch['weights']).shape)
   return batch
