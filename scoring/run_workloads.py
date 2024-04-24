@@ -142,7 +142,7 @@ def main(_):
     workload_metadata = json.load(f)
 
   # workloads = [w for w in workload_metadata.keys()]
-  workloads = ['wmt']
+  workloads = []
 
   # Read held-out workloads
   if FLAGS.held_out_workloads_config_path:
