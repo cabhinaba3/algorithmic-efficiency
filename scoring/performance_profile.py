@@ -263,7 +263,8 @@ def compute_performance_profiles(submissions,
                                  scale='linear',
                                  verbosity=0,
                                  strict=False,
-                                 self_tuning_ruleset=False):
+                                 self_tuning_ruleset=False,
+                                 output_dir=None):
   """Compute performance profiles for a set of submission by some time column.
 
   Args:
@@ -303,6 +304,9 @@ def compute_performance_profiles(submissions,
                                      self_tuning_ruleset,
                                      strict))
   df = pd.concat(dfs)
+  logging.info('SAVING')
+  maybe_save_df_to_csv(output_dir, df, 'aggregated_per_workload_runtimes.csv')
+  print_dataframe(df)
 
   # Set score to inf if not within 4x of fastest submission
   best_scores = df.min(axis=0)
@@ -369,7 +373,7 @@ def compute_performance_profiles(submissions,
   return perf_df
 
 
-def compute_leaderboard_score(df, normalize=False):
+def compute_leaderboard_score(df, normalize=True):
   """Compute leaderboard score by taking integral of performance profile.
 
   Args:
